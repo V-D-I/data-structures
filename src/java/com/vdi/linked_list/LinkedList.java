@@ -4,8 +4,8 @@ package com.vdi.linked_list;
  * Primitive single-threaded representation of the linked list's work
  * */
 public class LinkedList<T> {
-    private Node<T> head;
-    private int length;
+    protected Node<T> head;
+    protected int length;
 
     public LinkedList() {
     }
